@@ -13,9 +13,11 @@ import {
   Layers,
   Search,
   AlertTriangle,
-  FileText
+  FileText,
+  Monitor
 } from 'lucide-react';
 import { LeagueDetails, ViewMode } from '../types';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface HeaderProps {
   league: LeagueDetails | null;
@@ -27,6 +29,7 @@ interface HeaderProps {
   onOpenPitchModal: () => void;
   onOpenShareModal: () => void;
   onOpenBulkModal?: () => void;
+  onOpenDesktopModal?: () => void;
   onAutoAssign: () => void;
   totalConflicts: number;
 }

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="#020617" />
+  <rect x="40" y="40" width="432" height="432" rx="70" fill="url(#grad)" />
+  <!-- Pitch markings -->
+  <rect x="70" y="70" width="372" height="372" rx="40" fill="none" stroke="#ffffff" stroke-width="12" stroke-opacity="0.9" />
+  <line x1="70" y1="256" x2="442" y2="256" stroke="#ffffff" stroke-width="12" stroke-opacity="0.9" />
+  <circle cx="256" cy="256" r="64" fill="none" stroke="#ffffff" stroke-width="12" stroke-opacity="0.9" />
+  <circle cx="256" cy="256" r="10" fill="#ffffff" />
+  <!-- Goal boxes -->
+  <rect x="176" y="70" width="160" height="70" fill="none" stroke="#ffffff" stroke-width="12" stroke-opacity="0.9" />
+  <rect x="176" y="372" width="160" height="70" fill="none" stroke="#ffffff" stroke-width="12" stroke-opacity="0.9" />
+  <!-- Trophy icon in center -->
+  <path d="M220 200 h72 v30 c0 20 -16 36 -36 36 s-36 -16 -36 -36 z" fill="#ffffff" />
+  <path d="M250 266 v24 h12 v-24" fill="#ffffff" />
+  <rect x="236" y="290" width="40" height="12" rx="3" fill="#ffffff" />
+</svg>
