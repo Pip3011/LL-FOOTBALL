@@ -1,0 +1,6 @@
+{
+  "name": "Leisure Leagues Pitch & Ref Manager",
+  "description": "Browse official Leisure Leagues fixtures by date, assign pitches with collision detection, allocate referees, and generate printable matchday sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
